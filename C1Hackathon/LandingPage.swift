@@ -22,11 +22,9 @@ class LandingPage: UIViewController {
     }
     
     @IBAction func Decline(_ sender: Any) {
-        let popOverVC = UIStoryboard(name: "LandingPage", bundle: nil).instantiateViewController(withIdentifier: "sbPopUpID") as! PopUpViewController
-        self.addChild(popOverVC)
-        popOverVC.view.frame = self.view.frame
-        self.view.addSubview(popOverVC.view)
-        popOverVC.didMove(toParent: self)
+        let storyboard = UIStoryboard(name: "LandingPage", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Alerter")
+        self.present(vc, animated: false, completion: nil);
     }
     
 }

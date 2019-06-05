@@ -60,6 +60,7 @@
 		A42AD26122A833FC00350B92 /* LandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42AD26022A833FC00350B92 /* LandingPage.storyboard */; };
 		A42AD26322A8341200350B92 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42AD26222A8341200350B92 /* LandingPage.swift */; };
 		A42AD26522A8513A00350B92 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42AD26422A8513A00350B92 /* PopUpViewController.swift */; };
+		A42AD26922A868E200350B92 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42AD26822A868E200350B92 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,6 +119,7 @@
 		A42AD26022A833FC00350B92 /* LandingPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingPage.storyboard; sourceTree = "<group>"; };
 		A42AD26222A8341200350B92 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 		A42AD26422A8513A00350B92 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		A42AD26822A868E200350B92 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				A42AD1F422A80A1500350B92 /* ViewController.swift */,
 				A42AD1F622A80A1500350B92 /* Main.storyboard */,
 				A42AD26022A833FC00350B92 /* LandingPage.storyboard */,
+				A42AD26822A868E200350B92 /* Alert.swift */,
 				A42AD26222A8341200350B92 /* LandingPage.swift */,
 				A42AD26422A8513A00350B92 /* PopUpViewController.swift */,
 				A42AD1F922A80A1500350B92 /* Assets.xcassets */,
@@ -336,6 +339,7 @@
 				A42AD1F522A80A1500350B92 /* ViewController.swift in Sources */,
 				A42AD1F322A80A1500350B92 /* AppDelegate.swift in Sources */,
 				A42AD26322A8341200350B92 /* LandingPage.swift in Sources */,
+				A42AD26922A868E200350B92 /* Alert.swift in Sources */,
 				A42AD26522A8513A00350B92 /* PopUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
