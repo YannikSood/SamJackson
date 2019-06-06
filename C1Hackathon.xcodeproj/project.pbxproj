@@ -57,10 +57,11 @@
 		A42AD25D22A8257A00350B92 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A42AD23022A8257A00350B92 /* SF-Pro-Display-BoldItalic.otf */; };
 		A42AD25E22A8257A00350B92 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A42AD23122A8257A00350B92 /* SF-Pro-Rounded-Bold.otf */; };
 		A42AD25F22A8257A00350B92 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A42AD23222A8257A00350B92 /* SF-Pro-Text-SemiboldItalic.otf */; };
-		A42AD26122A833FC00350B92 /* LandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42AD26022A833FC00350B92 /* LandingPage.storyboard */; };
 		A42AD26322A8341200350B92 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42AD26222A8341200350B92 /* LandingPage.swift */; };
 		A42AD26522A8513A00350B92 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42AD26422A8513A00350B92 /* PopUpViewController.swift */; };
 		A42AD26922A868E200350B92 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42AD26822A868E200350B92 /* Alert.swift */; };
+		A42AD26B22A8A0CA00350B92 /* TrustedVendors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42AD26A22A8A0CA00350B92 /* TrustedVendors.swift */; };
+		A42AD26D22A8A4A000350B92 /* LandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42AD26C22A8A4A000350B92 /* LandingPage.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -116,10 +117,11 @@
 		A42AD23022A8257A00350B92 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
 		A42AD23122A8257A00350B92 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
 		A42AD23222A8257A00350B92 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
-		A42AD26022A833FC00350B92 /* LandingPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LandingPage.storyboard; sourceTree = "<group>"; };
 		A42AD26222A8341200350B92 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
 		A42AD26422A8513A00350B92 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
 		A42AD26822A868E200350B92 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		A42AD26A22A8A0CA00350B92 /* TrustedVendors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrustedVendors.swift; sourceTree = "<group>"; };
+		A42AD26C22A8A4A000350B92 /* LandingPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LandingPage.storyboard; path = "../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/B9F75140-9817-4A82-9F95-E4610A55C36B/LandingPage.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +158,8 @@
 				A42AD1F222A80A1500350B92 /* AppDelegate.swift */,
 				A42AD1F422A80A1500350B92 /* ViewController.swift */,
 				A42AD1F622A80A1500350B92 /* Main.storyboard */,
-				A42AD26022A833FC00350B92 /* LandingPage.storyboard */,
+				A42AD26C22A8A4A000350B92 /* LandingPage.storyboard */,
+				A42AD26A22A8A0CA00350B92 /* TrustedVendors.swift */,
 				A42AD26822A868E200350B92 /* Alert.swift */,
 				A42AD26222A8341200350B92 /* LandingPage.swift */,
 				A42AD26422A8513A00350B92 /* PopUpViewController.swift */,
@@ -318,12 +321,12 @@
 				A42AD24822A8257A00350B92 /* SF-Pro-Text-Bold.otf in Resources */,
 				A42AD25D22A8257A00350B92 /* SF-Pro-Display-BoldItalic.otf in Resources */,
 				A42AD24B22A8257A00350B92 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				A42AD26D22A8A4A000350B92 /* LandingPage.storyboard in Resources */,
 				A42AD25E22A8257A00350B92 /* SF-Pro-Rounded-Bold.otf in Resources */,
 				A42AD24922A8257A00350B92 /* SF-Pro-Text-Thin.otf in Resources */,
 				A42AD23922A8257A00350B92 /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				A42AD25C22A8257A00350B92 /* SF-Pro-Rounded-Heavy.otf in Resources */,
 				A42AD25622A8257A00350B92 /* SF-Pro-Text-Semibold.otf in Resources */,
-				A42AD26122A833FC00350B92 /* LandingPage.storyboard in Resources */,
 				A42AD24422A8257A00350B92 /* SF-Pro-Text-Black.otf in Resources */,
 				A42AD24322A8257A00350B92 /* SF-Pro-Text-BlackItalic.otf in Resources */,
 			);
@@ -337,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42AD1F522A80A1500350B92 /* ViewController.swift in Sources */,
+				A42AD26B22A8A0CA00350B92 /* TrustedVendors.swift in Sources */,
 				A42AD1F322A80A1500350B92 /* AppDelegate.swift in Sources */,
 				A42AD26322A8341200350B92 /* LandingPage.swift in Sources */,
 				A42AD26922A868E200350B92 /* Alert.swift in Sources */,

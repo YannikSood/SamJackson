@@ -39,5 +39,10 @@ class ViewController: UIViewController {
         }
     
 }
+    @IBAction func TrustedVend(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "LandingPage", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "TrustedVendors")
+        self.present(vc, animated: false, completion: nil);
+    }
 }
 
